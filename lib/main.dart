@@ -132,13 +132,13 @@ class _HomeState extends State<Home> {
                         children: <Widget>[
                           Icon(Icons.monetization_on,
                               size: 150.0, color: Colors.amber),
-                          buildeTextField("Kwanza", "AOA",kwanzaController, _kwanzaChanged),
+                          buildeTextField("Kwanza", "AOA\$",kwanzaController, _kwanzaChanged),
                           Divider(),
-                          buildeTextField("Dólares", "USD", dolarController,
+                          buildeTextField("Dólares", "US\$", dolarController,
                               _dolarChanged),
                           Divider(),
                           buildeTextField(
-                              "Euros", "E\$", euroController, _euroChanged),
+                              "Euros", "€\$", euroController, _euroChanged),
                           Divider(),
                           buildeTextField(
                               "Real", "R\$", realController, _realChanged)
